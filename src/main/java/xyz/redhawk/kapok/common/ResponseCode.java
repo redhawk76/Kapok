@@ -2,9 +2,9 @@ package xyz.redhawk.kapok.common;
 
 /**
  * @Author: Wang bin
- * @date: Created in 11:26 2019/11/26
+ * @date: Created in 11:46 2019/11/26
  */
-public enum  ResponseCode {
+public enum ResponseCode {
 
     SUCCESS(0,"SUCCESS"),
     ERROR(1,"ERROR");

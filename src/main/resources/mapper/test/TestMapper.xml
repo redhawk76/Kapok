@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="xyz.redhawk.kapok.mapper.TestMapper">
+
+    <select id="selectTest" resultType="xyz.redhawk.kapok.pojo.Test1">
+      select * from test
+    </select>
+</mapper>
